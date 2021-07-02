@@ -27,5 +27,13 @@ describe('main.js tests', () => {
             const result = mainfunc.repeated_strings([]);
             assert.strictEqual(result,0)
         });
+        it('should return 0', () => {
+            const result = mainfunc.repeated_strings(['dd']);
+            assert.strictEqual(result,0)
+        });
+        it('should return 0', () => {
+            const result = mainfunc.repeated_strings([5]);
+            assert.strictEqual(result,0)
+        });
     });
 });
