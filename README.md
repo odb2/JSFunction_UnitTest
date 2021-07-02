@@ -24,7 +24,7 @@ partitions and error conditions you can think of.
 * enter "npm install" inside terminal (this initializes the project and downloads dependencies)
 * enter "npm test" inside terminal (this runs the test cases from /test/main.test.js for the function inside /main.js)
 
-<img align="center" width="250" src="testcases.png" />
+<div align="center"><img width="250" src="testcases.png" /></div>
 
 
 ## Solution
