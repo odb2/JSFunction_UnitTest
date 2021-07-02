@@ -24,7 +24,7 @@ partitions and error conditions you can think of.
 * enter "npm install" inside terminal (this initializes the project and downloads dependencies)
 * enter "npm test" inside terminal (this runs the test cases from /test/main.test.js for the function inside /main.js)
 
-<div align="center"><img width="250" src="testcases.png" /></div>
+<div align="center"><img width="650" src="testcases.png" /></div>
 
 
 ## Solution
@@ -67,6 +67,15 @@ partitions and error conditions you can think of.
     
     
 ## Test Cases
+
+* ['abc', '123', '123', '123', 'ABC', 'xyz']
+* ['abcabc', 'abc', '123', '123', 'Abc', 'ABC','', '','123']
+* ['abc', [5,5,'breaking'], [5,5,'breaking'], 5, 'abc']
+* ['abc', 5, 'abc', [], []]
+* ['12', ' ', 12, ' ', '12','12']
+* []
+* ['dd']
+* [5]
 
 ### Valid Zone:
 input can be within valid zone which is a string in each element eg. ['test','test','imastring','gohawks']
